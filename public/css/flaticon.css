@@ -16,14 +16,14 @@
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: "Flaticon";
+    font-family:  "Flaticon";
     src: url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
   }
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-  font-family: Flaticon;
+  font-family:  Flaticon;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;

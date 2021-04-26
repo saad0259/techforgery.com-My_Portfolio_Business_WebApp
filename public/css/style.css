@@ -31,7 +31,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-sans-serif: "Century Gothic","Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *,
@@ -41,7 +41,7 @@
   box-sizing: border-box; }
 
 html {
-  font-family: sans-serif;
+  font-family:  "Century Gothic",sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -56,7 +56,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family:  "Century Gothic","Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -161,7 +161,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
+  font-family:  "Century Gothic",monospace, monospace;
   font-size: 1em; }
 
 pre {
@@ -210,7 +210,7 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
+  font-family:  "Century Gothic",inherit;
   font-size: inherit;
   line-height: inherit; }
 
@@ -303,7 +303,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: inherit;
+  font-family:  "Century Gothic",inherit;
   font-weight: 500;
   line-height: 1.2;
   color: inherit; }
@@ -421,7 +421,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  font-family:  "Century Gothic",SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 code {
   font-size: 87.5%;
@@ -4494,7 +4494,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family:  "Century Gothic","Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -4579,7 +4579,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family:  "Century Gothic","Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -7066,7 +7066,7 @@ button.bg-dark:focus {
     margin-left: auto !important; } }
 
 .text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  font-family:  "Century Gothic",SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 .text-justify {
   text-align: justify !important; }
@@ -7268,7 +7268,7 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #dee2e6 !important; } }
 
 body {
-  font-family: "Rubik", Arial, sans-serif;
+  font-family:  "Century Gothic", Arial, sans-serif;
   font-size: 17px;
   line-height: 1.8;
   font-weight: 400;
@@ -7435,6 +7435,8 @@ h1, h2, h3, h4, h5,
     -ms-transform: scale(1);
     -o-transform: scale(1);
     transform: scale(1); }
+
+
   #techforgery-main-nav .logo {
     font-size: 20px;
     color: #fff;
@@ -7442,7 +7444,12 @@ h1, h2, h3, h4, h5,
     letter-spacing: 2px;
     font-weight: 400;
     position: relative; }
-    #techforgery-main-nav .logo:after {
+
+    #techforgery-main-nav .logo img{
+
+      width:200px;
+    }
+    /* #techforgery-main-nav .logo:after {
       position: absolute;
       top: -3px;
       left: -7px;
@@ -7463,7 +7470,7 @@ h1, h2, h3, h4, h5,
       height: 30px;
       border: 2px solid white;
       border-left: 1px solid transparent;
-      z-index: -1; }
+      z-index: -1; } */
   #techforgery-main-nav ul {
     padding: 0;
     margin: 0;
@@ -7527,7 +7534,24 @@ header {
   @media (max-width: 767.98px) {
     header {
       padding: 2em 0;
-      position: absolute; } }
+      position: absolute; }
+
+      #techforgery-main-nav .logo img{
+        width: 200px;
+        margin: 14px 0 0 -70px;
+      
+      }
+
+
+      header .techforgery-navbar-brand .techforgery-logo img{
+
+        width: 200px;
+        margin: 7px 0 0 -70px;
+
+      }
+
+
+    }
   header .techforgery-navbar-brand {
     width: 100%; }
     header .techforgery-navbar-brand .techforgery-logo {
@@ -7537,7 +7561,8 @@ header {
       letter-spacing: 2px;
       font-weight: 400;
       position: relative; }
-      header .techforgery-navbar-brand .techforgery-logo:after {
+      
+      /* header .techforgery-navbar-brand .techforgery-logo:after {
         position: absolute;
         top: -3px;
         left: -7px;
@@ -7558,7 +7583,7 @@ header {
         height: 30px;
         border: 2px solid white;
         border-left: 1px solid transparent;
-        z-index: -1; }
+        z-index: -1; } */
 
 .techforgery-nav-toggle {
   cursor: pointer;
@@ -8314,7 +8339,7 @@ textarea.form-control {
   text-transform: uppercase;
   letter-spacing: .5em;
   color: #d4d4d4;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family:  "Century Gothic","Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 300; }
 
 .ftco-section .ftco-primary-title {
@@ -8702,7 +8727,7 @@ textarea.form-control {
       top: .1em;
       left: 0; }
     .block-8 .accordion-item .heading > a[aria-expanded="true"]:before {
-      font-family: 'icomoon';
+      font-family:  "Century Gothic",'icomoon';
       position: absolute;
       content: "\e316";
       -webkit-transition: .3s all ease;
@@ -8714,7 +8739,7 @@ textarea.form-control {
     .block-8 .accordion-item .heading > a[aria-expanded="false"]:before {
       content: "\e313";
       color: #ccc;
-      font-family: 'icomoon';
+      font-family:  "Century Gothic",'icomoon';
       position: absolute;
       -webkit-transition: .3s all ease;
       -o-transition: .3s all ease;
