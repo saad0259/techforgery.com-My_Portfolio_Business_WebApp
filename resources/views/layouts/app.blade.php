@@ -77,7 +77,7 @@
     </ul>
     </div>
     <div class="ftco-footer-widget">
-    <h2 class="mb-3">Contact Us</h2>
+    <h2 class="mb-3">Contact Us with rehman ali</h2>
     <p class="email"><a href="#"><span class="__cf_email__" data-cfemail="d9b0b7bfb699bcb4b8b0b5f7bab6b4">[email&#160;protected]</span></a></p>
     </div>
     </div>
