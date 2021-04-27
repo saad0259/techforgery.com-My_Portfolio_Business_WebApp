@@ -167,7 +167,7 @@
                 Work 01
               </h3>
             </div>
-            <img src="images/image_3.jpg" class="img-fluid" alt="techforgery Template">
+            <img loading="lazy" src="images/image_3.jpg" class="img-fluid" alt="techforgery Template">
           </a>
         <a href="portfolio.html" class="portfolio ftco-animate">
           <div class="d-flex icon justify-content-center align-items-center">
@@ -179,7 +179,7 @@
               Work 02
             </h3>
           </div>
-          <img src="images/image_2.jpg" class="img-fluid" alt="techforgery Template">
+          <img loading="lazy" src="images/image_2.jpg" class="img-fluid" alt="techforgery Template">
         </a>
         <a href="portfolio.html" class="portfolio ftco-animate">
           <div class="d-flex icon justify-content-center align-items-center">
@@ -191,7 +191,7 @@
               Work 03
             </h3>
           </div>
-          <img src="images/image_9.jpg" class="img-fluid" alt="techforgery Template">
+          <img loading="lazy" src="images/image_9.jpg" class="img-fluid" alt="techforgery Template">
         </a>
       </div>
 
@@ -206,7 +206,7 @@
                 Work 04
               </h3>
             </div>
-            <img src="images/image_1.jpg" class="img-fluid" alt="techforgery Template">
+            <img loading="lazy" src="images/image_1.jpg" class="img-fluid" alt="techforgery Template">
           </a>
         <div class="row">
           <div class="col-md-6">
@@ -220,7 +220,7 @@
                   Work 05
                 </h3>
               </div>
-              <img src="images/image_5.jpg" class="img-fluid" alt="techforgery Template">
+              <img loading="lazy" src="images/image_5.jpg" class="img-fluid" alt="techforgery Template">
             </a>
           </div>
           <div class="col-md-6">
@@ -234,7 +234,7 @@
                   Work 06
                 </h3>
               </div>
-              <img src="images/image_6.jpg" class="img-fluid" alt="techforgery Template">
+              <img loading="lazy" src="images/image_6.jpg" class="img-fluid" alt="techforgery Template">
             </a>
           </div>
         </div>
@@ -252,7 +252,7 @@
         Work 07
         </h3>
         </div>
-        <img src="images/image_7.jpg" class="img-fluid" alt="techforgery Template">
+        <img loading="lazy" src="images/image_7.jpg" class="img-fluid" alt="techforgery Template">
         </a>
         </div>
         <div class="col-md-4">
@@ -266,7 +266,7 @@
         Work 08
         </h3>
         </div>
-        <img src="images/image_4.jpg" class="img-fluid" alt="techforgery Template">
+        <img loading="lazy" src="images/image_4.jpg" class="img-fluid" alt="techforgery Template">
         </a>
         </div>
         </div>
