@@ -42,6 +42,16 @@
                     <li><a href="portfolio.html"><span><small>05</small>Portfolio</span></a></li>
                     <li><a href="blog.html"><span><small>06</small>Blog</span></a></li>
                     <li><a href="contact.html"><span><small>07</small>Contact</span></a></li>
+
+                    <form method="POST" action="{{ route('logout') }}">
+                      @csrf
+
+                      <li><a href="route('logout')"
+                        onclick="event.preventDefault();
+                                    this.closest('form').submit();"><span><small>07</small>Logout</span></a></li>
+                     
+                    </form>
+
                     </ul>
                 </div>
             </div>
