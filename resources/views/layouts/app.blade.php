@@ -25,6 +25,24 @@
 <link rel="preload" href="../fonts/icomoon/icomoonccfb.ttf?6tt51o" as="font" type="font/truetype" crossorigin>
 
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-195312307-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-195312307-1');
+</script>
+
+
+
+
+
+
+
+
 </head>
 <body>
 
