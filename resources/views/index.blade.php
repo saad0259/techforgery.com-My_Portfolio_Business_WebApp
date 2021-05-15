@@ -4,7 +4,8 @@
 
   
 <section class="home-slider owl-carousel">
-    <a href="portfolio.html" class="slider-item" style="background-image: url(images/bg_1.jpg);">
+
+    <a href="portfolio.html" class="slider-item" style="background-image: url(images/slide0.jpg);">
       <div class="overlay"></div>
       <div class="container">
         <div class="row slider-text align-items-end justify-content-center">
@@ -14,7 +15,19 @@
         </div>
       </div>
     </a>
-    <a href="portfolio.html" class="slider-item" style="background-image: url('images/bg_2.jpg');">
+
+
+    <a href="portfolio.html" class="slider-item" style="background-image: url(images/slide01.jpg);">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row slider-text align-items-end justify-content-center">
+          <div class="col-md-12 ftco-animate p-4" data-scrollax=" properties: { translateY: '70%' }">
+          <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">#01 Exterior Building</h1>
+          </div>
+        </div>
+      </div>
+    </a>
+    <a href="portfolio.html" class="slider-item" style="background-image: url('images/slide02.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row slider-text align-items-end justify-content-center">
@@ -24,7 +37,7 @@
         </div>
       </div>
     </a>
-    <a href="portfolio.html" class="slider-item" style="background-image: url('images/bg_3.jpg');">
+    <a href="portfolio.html" class="slider-item" style="background-image: url('images/slide03.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row slider-text align-items-end justify-content-center">
@@ -34,7 +47,47 @@
         </div>
       </div>
     </a>
-    <a href="portfolio.html" class="slider-item" style="background-image: url('images/bg_4.jpg');">
+    <a href="portfolio.html" class="slider-item" style="background-image: url('images/slide04.jpg');">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row slider-text align-items-end justify-content-center">
+          <div class="col-md-12 ftco-animate p-4" data-scrollax=" properties: { translateY: '70%' }">
+          <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">#03 Louie's Residences</h1>
+          </div>
+        </div>
+      </div>
+    </a>
+    <a href="portfolio.html" class="slider-item" style="background-image: url('images/slide05.jpg');">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row slider-text align-items-end justify-content-center">
+          <div class="col-md-12 ftco-animate p-4" data-scrollax=" properties: { translateY: '70%' }">
+          <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">#03 Louie's Residences</h1>
+          </div>
+        </div>
+      </div>
+    </a>
+    <a href="portfolio.html" class="slider-item" style="background-image: url('images/slide06.jpg');">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row slider-text align-items-end justify-content-center">
+          <div class="col-md-12 ftco-animate p-4" data-scrollax=" properties: { translateY: '70%' }">
+          <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">#03 Louie's Residences</h1>
+          </div>
+        </div>
+      </div>
+    </a>
+    <a href="portfolio.html" class="slider-item" style="background-image: url('images/slide07.jpg');">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row slider-text align-items-end justify-content-center">
+          <div class="col-md-12 ftco-animate p-4" data-scrollax=" properties: { translateY: '70%' }">
+          <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">#03 Louie's Residences</h1>
+          </div>
+        </div>
+      </div>
+    </a>
+    {{-- <a href="portfolio.html" class="slider-item" style="background-image: url('images/bg_4.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row slider-text align-items-end justify-content-center">
@@ -43,7 +96,7 @@
           </div>
         </div>
       </div>
-    </a>
+    </a> --}}
   </section>
 
   <section class="ftco-counter" id="section-counter">
